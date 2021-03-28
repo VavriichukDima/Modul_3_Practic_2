@@ -50,7 +50,7 @@ namespace Modul_3_Practic_2
             var elementAtOrDefaultContact = _strArray.ElementAtOrDefault(3);
             Console.WriteLine(elementAtOrDefaultContact.FullName + elementAtOrDefaultContact.PhoneNumber);
 
-            Console.WriteLine("\t -Block_SkipWhile-");     // работает по дурному
+            Console.WriteLine("\t -Block_SkipWhile-");
             var skipWhileContact = _strArray.SkipWhile(w => w.FirstName.Contains('b'));
             foreach (var s in skipWhileContact)
             {

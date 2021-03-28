@@ -36,6 +36,8 @@ namespace Modul_3_Practic_2
                             }
                         });
             Console.WriteLine(_result);
+            FuncSum -= Sum;
+            FuncSum -= Sum;
         }
 
         public int Sum(int x, int y)
